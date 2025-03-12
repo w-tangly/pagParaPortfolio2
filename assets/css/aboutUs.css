@@ -1,0 +1,13 @@
+.aboutUs .row{
+    flex-direction: row-reverse;
+    gap:6.5rem;
+}
+
+.aboutUs .txt{
+    padding-top: 2rem;
+}
+
+#aboutUs{
+    font-family: Koh Santepheap;
+    color: var(--secondary);
+}
