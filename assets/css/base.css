@@ -27,8 +27,12 @@ body{
     font-size: 2rem;
 }
 
+.container{
+    margin: 0 20vw;
+}
+
 .btn{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: var(--background);
     background-color: var(--secondary);
@@ -40,4 +44,26 @@ body{
 
 .btn:hover{
     opacity: 0.8;
+}
+
+.desc{
+    max-width: 30vw;
+}
+
+.title{
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: Koh Santepheap;
+    line-height: 120%;
+}
+
+.txt{
+    line-height: 160%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
