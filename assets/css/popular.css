@@ -1,0 +1,47 @@
+.popular .title{
+    justify-self: center;
+}
+
+.popularRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10rem;
+}
+
+.popular .desc{
+    border-radius: 16px;
+    background-color: var(--secondary-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.img{
+    margin-top: -10rem;
+}
+
+.item{
+    margin-top: 3.5rem;
+    max-width: 18vw;
+}
+
+.name{
+    font-size: 2rem;
+    font-family: Koh Santepheap;
+}
+
+.txt{
+    font-size: 1.75rem;
+}
+
+.price{
+    font-size: 2rem;
+    color: var(--secondary);
+    font-family: Koh Santepheap;
+    padding-bottom: 1.5rem;
+}

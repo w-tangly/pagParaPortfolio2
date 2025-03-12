@@ -1,6 +1,7 @@
 header{
     width: 100vw;
     margin: 2.5rem 0;
+    position: sticky;
 }
 
 nav{
@@ -8,10 +9,9 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    position: sticky;
 }
 
-ul{
+header ul{
     display: flex;
     flex-direction: row;
     align-items: center;

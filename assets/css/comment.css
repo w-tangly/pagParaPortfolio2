@@ -1,0 +1,30 @@
+.comments .title {
+  justify-self: center;
+}
+
+.comments .row {
+  padding-top: 3.5rem;
+}
+
+.comment {
+  background-color: var(--secondary-background);
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  width: 50rem;
+  gap: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment img {
+  width: 120px;
+  height: auto;
+}
+
+.comment .rank img {
+  height: auto;
+  width: auto;
+}
+.comment .txt {
+  max-width: 355px;
+}

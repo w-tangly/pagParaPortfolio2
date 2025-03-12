@@ -1,0 +1,27 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .nome{
+    font-family: Koh Santepheap;
+    padding-bottom: 1.25rem;
+    font-size: 20px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap:.75rem;
+    font-size: 18px;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top:solid 2px var(--secondary-background);
+    padding: 1.5rem;
+}
